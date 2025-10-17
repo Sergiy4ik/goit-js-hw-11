@@ -1,16 +1,3 @@
-// import { handleSubmit } from './js/render-function';
-
-
-// export const refs = {
-//     input: document.querySelector('input[name="search-text"]'),
-//     gallary: document.querySelector('.gallery'),
-//     form: document.querySelector('.form'),
-// }
-
-
-// refs.form.addEventListener('submit', handleSubmit);
-
-
 import { getImagesByQuery } from './js/pixabay-api';
 import { createGallery, clearGallery, showLoader, hideLoader } from './js/render-function';
 import iziToast from 'izitoast';
